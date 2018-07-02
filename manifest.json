@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "New Tab",
+	"version": "1.0",
+	"description": "Tab mới",
+     "icons": {
+        "16": "image/icons/gemini.png",
+        "32": "image/icons/gemini.png",
+        "48": "image/icons/gemini.png",
+        "128": "image/icons/gemini.png"
+    },
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"web_accessible_resources": [
+		"videos/*.mp4"
+	],
+	"permissions": [
+		"activeTab"
+	]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<title>Tab mới</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>	
+	<div class="video-background">
+		<video id="myVideo" muted autoplay loop></video>
+		<audio id="myAudio" autoplay>
+		</audio>
+	</div>
+	<div class="clock" style="color: white">
+		<div class="">
+			<h1 id="time"></h1>
+			<span id="ampm"></span>
+		</div>
+		<div class="text">
+			<marquee id="myMarquee" direction="left" scrollamount="5" behavior="slide">
+				<h3 id="greetings"></h3>
+			</marquee>
+			<!--Cái này là làm cho chữ chạy liên tục-->
+			<!-- <marquee direction="left" scrollamount="5"  onmouseover="this.stop()">
+				<h3 id="greetings"></h3>
+			</marquee> -->
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-sm  content fixed-bottom">
+	  <!-- Brand/logo -->
+	  <a class="navbar-brand" data-click-url="https://facebook.com/">
+	    <img src="image/facebook-logo.png" alt="Facebook">
+	    <span class="icon-title">Facebook</span>
+	  </a>
+	  <a class="navbar-brand" data-click-url="https://www.youtube.com/?gl=VN">
+	    <img src="image/youtube.png" alt="Youtube">
+	    <span class="icon-title">Youtube</span>
+	  </a>
+	  <a class="navbar-brand" data-click-url="https://www.24h.com.vn/">
+	    <img src="image/24h-logo.png" alt="thethao24h">
+	    <span class="icon-title">Thể thao 24h</span>
+	  </a>
+	  <a class="navbar-brand" data-click-url="http://kenh14.vn/">
+	    <img src="image/kenh14.png" alt="kenh14">
+	    <span class="icon-title">Kênh 14</span>
+	  </a>
+	  <a class="navbar-brand button button-primary" data-click-url="https://hamtruyen.com/">
+	    <img src="image/truyen.jpg" alt="hamtruyen">
+	    <span class="icon-title">Ham truyện</span>
+	  </a>
+	  <a class="navbar-brand" data-click-url="http://blogtruyen.com/">
+	    <img src="image/blog_truyen.jpg" alt="blogtruyen">
+	    <span class="icon-title">Blog truyện</span>
+	  </a>
+	  <a class="navbar-brand" data-click-url="https://www.nhaccuatui.com/">
+	    <img src="image/nhaccuatui.png" alt="Nhạc của tui">
+	    <span class="icon-title">Nhạc của tui</span>
+	  </a>
+	  <a class="navbar-brand" data-click-url="https://mail.google.com">
+	    <img src="image/gmail.png" alt="Gmail">
+	    <span class="icon-title">Gmail</span>
+	  </a>
+	</nav>
+</body>
+</html>
+<!--JS-->
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js/my.js"></script>
