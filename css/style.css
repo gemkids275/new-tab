@@ -44,42 +44,54 @@ font-family: "Lobster", Sans-serif !important;
 /* CLOCK */
 
 .clock {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  position: absolute;
-  width: 100%;
+  position: absolute;*/
+  width: 50%;
   height: 100%;
-  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 12%;
   justify-content: center;
   align-items: center;
   z-index: 1;
 }
-
+.time{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 .clock #time { 
   font-size: 6rem; 
   display: inline-block;
-  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
   text-shadow:4px 2px 0 #F29D38;
   opacity: 0.8;
 }
-
 .clock #greetings { 
   font-size: 3.5rem;
-  margin: 0;
   text-shadow:3px 2px 0 #CF3030;
 }
 /*Chữ chạy*/
-.text{
-  width: 43%;
+#myMarquee{
+  text-align: center;
 }
 /*Menu */
+.icon{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+}
 .content{
   position: absolute;
   width:100%;
   height: 80px;
   margin-top: 20%;
-  margin-left: 26%;
-  left: 0;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   align-items: center;
   z-index: 2;
@@ -113,10 +125,10 @@ font-family: "Lobster", Sans-serif !important;
 	width: 120px;
 	padding: 2px;
 	top:-15px;
-    border-radius: 8px;
-    background-color: rgba(255,255,255,.8);
-    text-align: center;
-    font-size: 13px;
-    position: absolute;
-        transform: translateX(-20%);
+  border-radius: 8px;
+  background-color: rgba(255,255,255,.8);
+  text-align: center;
+  font-size: 13px;
+  position: absolute;
+  transform: translateX(-20%);
 }
